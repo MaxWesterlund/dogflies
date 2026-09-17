@@ -1,0 +1,68 @@
+@import "gotham.css";
+
+
+window#waybar {
+	all: unset;
+	background: @background_primary;
+	margin: 0px;
+	padding: 0px;
+}
+
+.modules-left, .modules-center, modules-right {
+	margin: 2px;
+}
+
+#clock {
+	font-family: "HermitNerdFont-Mono";
+	font-weight: Bold;
+	color: @red_normal;
+	margin-left: 8px;
+	font-size: 1.6rem;
+}
+
+#workspaces button {
+	all: unset;
+	margin-right: -0.5rem;
+	margin-top: -0.5rem;
+	margin-bottom: 0.3rem;
+	/*margin-left: -0.5rem
+	margin-right: -0.5rem;*/
+	font-size: 0.9rem;
+	font-family: "fantasqueSansMNerdFontMono";
+	font-weight: 900;
+	color: @cyan_bright;
+	/* transition: 0.2s; */
+}
+
+#workspaces button:nth-child(3) {
+	margin-right: -1rem;
+}
+
+#workspaces button:nth-child(5) {
+	margin-right: 0rem;
+}
+
+#workspaces button.empty {
+	color: @background_selection;
+}
+
+#workspaces button.active {
+	color: @white_normal;
+}
+
+#language {
+	font-family: "HermitNerdFont-Mono";
+	font-weight: bold;
+	color: @blue_normal;
+	margin-right: 8px;
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+#battery {
+	font-family: "HermitNerdFont-Mono";
+	font-weight: bold;
+	color: @white_normal;
+	margin-right: 8px;
+	font-size: 1.6rem;
+}

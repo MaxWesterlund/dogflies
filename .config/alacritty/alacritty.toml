@@ -1,0 +1,10 @@
+general.import = [
+	"~/.config/alacritty/gotham-default.toml"
+]
+
+[font]
+normal = {
+	family = "FantasqueSansMNerdFontMono",
+	style = "Bold",
+}
+size = 13

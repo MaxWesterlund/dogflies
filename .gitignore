@@ -1,0 +1,13 @@
+*
+!.gitignore
+
+!Wallpapers/
+!Wallpapers/**/*
+
+!.config/
+!.config/alacritty/
+!.config/alacritty/**/*
+!.config/waybar/
+!.config/waybar/**/*
+!.config/zed/
+!.config/zed/**/*

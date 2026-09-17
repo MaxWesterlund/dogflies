@@ -1,0 +1,26 @@
+@define-color foreground_primary #99d1ce;
+@define-color background_primary #0c1014;
+
+@define-color text_cursor #11151c;
+@define-color cursor_cursor #99d1ce;
+
+@define-color text_selection #99d1ce;
+@define-color background_selection #0a3749;
+
+@define-color black_normal #0c1014;
+@define-color red_normal #c23127;
+@define-color green_normal #2aa889;
+@define-color yellow_normal #edb443;
+@define-color blue_normal #195466;
+@define-color magenta_normal #4e5166;
+@define-color cyan_normal #33859e;
+@define-color white_normal #99d1ce;
+
+@define-color black_bright #0c1014;
+@define-color red_bright #c23127;
+@define-color green_bright #2aa889;
+@define-color yellow_bright #edb443;
+@define-color blue_bright #195466;
+@define-color magenta_bright #4e5166;
+@define-color cyan_bright #33859e;
+@define-color white_bright #99d1ce;
