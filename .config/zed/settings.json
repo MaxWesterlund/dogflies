@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "languages": {
+    "Scala": {
+      "tab_size": 4
+    }
+  },
   "buffer_font_family": "FantasqueSansM Nerd Font Mono",
   "terminal": {
     "font_family": "FantasqueSansM Nerd Font Mono"

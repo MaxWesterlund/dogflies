@@ -22,12 +22,12 @@ window#waybar {
 
 #workspaces button {
 	all: unset;
-	margin-right: -0.5rem;
-	margin-top: -0.5rem;
+	margin-right: -0.35rem;
+	margin-top: -0.35rem;
 	margin-bottom: 0.3rem;
 	/*margin-left: -0.5rem
 	margin-right: -0.5rem;*/
-	font-size: 0.9rem;
+	font-size: 0.7rem;
 	font-family: "fantasqueSansMNerdFontMono";
 	font-weight: 900;
 	color: @cyan_bright;
@@ -35,7 +35,7 @@ window#waybar {
 }
 
 #workspaces button:nth-child(3) {
-	margin-right: -1rem;
+	margin-right: -0.7rem;
 }
 
 #workspaces button:nth-child(5) {
