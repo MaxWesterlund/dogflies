@@ -1,4 +1,4 @@
-@import "gotham.css";
+@import "ayu-mirage.css";
 
 
 window#waybar {
@@ -30,7 +30,7 @@ window#waybar {
 	font-size: 0.7rem;
 	font-family: "fantasqueSansMNerdFontMono";
 	font-weight: 900;
-	color: @cyan_bright;
+	color: @green_bright;
 	/* transition: 0.2s; */
 }
 
@@ -43,11 +43,11 @@ window#waybar {
 }
 
 #workspaces button.empty {
-	color: @background_selection;
+	color: @green_normal;
 }
 
 #workspaces button.active {
-	color: @white_normal;
+	color: @blue_bright;
 }
 
 #language {
