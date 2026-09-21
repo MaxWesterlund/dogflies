@@ -12,12 +12,28 @@ window#waybar {
 	margin: 2px;
 }
 
+.modules-left {
+	margin-left: 1rem;
+}
+
+.modules-right {
+	margin-right: 1rem;
+}
+
 #clock {
 	font-family: "HermitNerdFont-Mono";
 	font-weight: Bold;
 	color: @red_normal;
 	margin-left: 8px;
 	font-size: 1.6rem;
+}
+
+#custom-asciiclock {
+	font-family: "fantasqueSansMNerdFontMono";
+	font-size: 0.7rem;
+	margin-bottom: 0.35rem;
+	font-weight: 900;
+	color: @red_bright;
 }
 
 #workspaces button {

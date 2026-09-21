@@ -8,7 +8,7 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "clock",
+        "custom/asciiclock",
     ],
     "modules-center": [
         "hyprland/workspaces"
@@ -38,11 +38,16 @@
     		"*": [1,2,3,4,5]
     	},
     },
-	"clock": {
-		"interval": 1,
-		"format": "{:%H:%M}",
-		"tooltip": "false",
-	},
+    "custom/asciiclock": {
+    	"exec": "~/.config/waybar/scripts/ascii_clock.py",
+    	"return-type": "json",
+    	"interval": 1
+    },
+//	"clock": {
+//		"interval": 1,
+//		"format": "{:%H:%M}",
+//		"tooltip": "false",
+//	},
     "hyprland/language":{
     	"format": "{short}",
     },
