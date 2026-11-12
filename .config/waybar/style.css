@@ -20,17 +20,18 @@ window#waybar {
 	margin-right: 1rem;
 }
 
-#clock {
-	font-family: "HermitNerdFont-Mono";
+#custom-ascii_battery {
+	font-family: "fantasqueSansMNerdFontMono";
 	font-weight: Bold;
-	color: @red_normal;
+	color: @black_bright;
 	margin-left: 8px;
-	font-size: 1.6rem;
+	font-size: 0.7rem;
 }
 
-#custom-asciiclock {
+#custom-ascii_clock {
 	font-family: "fantasqueSansMNerdFontMono";
 	font-size: 0.7rem;
+	font-weight: Bold;
 	margin-bottom: 0.35rem;
 	font-weight: 900;
 	color: @red_bright;
@@ -46,7 +47,7 @@ window#waybar {
 	font-size: 0.7rem;
 	font-family: "fantasqueSansMNerdFontMono";
 	font-weight: 900;
-	color: @green_bright;
+	color: @yellow_normal;
 	/* transition: 0.2s; */
 }
 
@@ -59,11 +60,11 @@ window#waybar {
 }
 
 #workspaces button.empty {
-	color: @green_normal;
+	color: @black_bright;
 }
 
 #workspaces button.active {
-	color: @blue_bright;
+	color: @cyan_bright;
 }
 
 #language {

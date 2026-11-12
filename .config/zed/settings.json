@@ -27,7 +27,7 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Tokyo Night Moon",
+    "dark": "Ayu Mirage",
   },
   "experimental.theme_overrides": {
     "syntax": {

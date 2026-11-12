@@ -70,6 +70,6 @@ def render(s):
 now = datetime.now()
 print(json.dumps({
     "text": render(now.strftime("%H:%M")),
-    "tooltop": "false",
-    "class": "asciiclock",
+    "tooltip": "false",
+    "class": "ascii_clock",
 }))
